@@ -1,0 +1,216 @@
+Algoritmo;TipoEntrada;Tamanho;TempoSegundos;MemoriaKB;ComplexidadeTeorica;Sucesso
+HeapSort;ordenada;10;0.00039709999964543385;0.2734375;O(n log n);True
+QuickSort;ordenada;10;5.330000021785963e-05;0.5390625;O(n log n) médio, O(n²) pior;True
+MergeSort;ordenada;10;6.770000072719995e-05;0.2890625;O(n log n);True
+BubbleSort;ordenada;10;2.5299999833805487e-05;0.109375;O(n²);True
+SelectionSort;ordenada;10;1.7299999854003545e-05;0.109375;O(n²);True
+InsertionSort;ordenada;10;9.60000033956021e-06;0.078125;O(n²);True
+TimSort;ordenada;10;5.599999894911889e-06;0.1484375;O(n log n);True
+HeapSort;reversa;10;1.900000006571645e-05;0.2734375;O(n log n);True
+QuickSort;reversa;10;4.2099999518541154e-05;0.421875;O(n log n) médio, O(n²) pior;True
+MergeSort;reversa;10;4.620000072463881e-05;0.2890625;O(n log n);True
+BubbleSort;reversa;10;2.300000051036477e-05;0.109375;O(n²);True
+SelectionSort;reversa;10;1.539999993838137e-05;0.109375;O(n²);True
+InsertionSort;reversa;10;1.2700000297627412e-05;0.078125;O(n²);True
+TimSort;reversa;10;4.399999852466863e-06;0.1484375;O(n log n);True
+HeapSort;aleatoria;10;2.27999998969608e-05;0.2734375;O(n log n);True
+QuickSort;aleatoria;10;3.980000019510044e-05;0.9609375;O(n log n) médio, O(n²) pior;True
+MergeSort;aleatoria;10;6.519999988086056e-05;0.2578125;O(n log n);True
+BubbleSort;aleatoria;10;1.849999989644857e-05;0.109375;O(n²);True
+SelectionSort;aleatoria;10;1.4999999621068127e-05;0.109375;O(n²);True
+InsertionSort;aleatoria;10;6.600000233447645e-06;0.078125;O(n²);True
+TimSort;aleatoria;10;4.800000169780105e-06;0.1484375;O(n log n);True
+HeapSort;parcialmente_ordenada;10;2.2899999748915434e-05;0.2734375;O(n log n);True
+QuickSort;parcialmente_ordenada;10;4.269999953976367e-05;0.375;O(n log n) médio, O(n²) pior;True
+MergeSort;parcialmente_ordenada;10;4.7900000026857015e-05;0.2890625;O(n log n);True
+BubbleSort;parcialmente_ordenada;10;2.8100000236008782e-05;0.109375;O(n²);True
+SelectionSort;parcialmente_ordenada;10;2.89999998130952e-05;0.109375;O(n²);True
+InsertionSort;parcialmente_ordenada;10;7.600000571983401e-06;0.078125;O(n²);True
+TimSort;parcialmente_ordenada;10;5.199999577598646e-06;0.1484375;O(n log n);True
+HeapSort;muitas_duplicatas;10;2.390000008745119e-05;0.2734375;O(n log n);True
+QuickSort;muitas_duplicatas;10;1.700000029813964e-05;0.3046875;O(n log n) médio, O(n²) pior;True
+MergeSort;muitas_duplicatas;10;3.930000002583256e-05;0.265625;O(n log n);True
+BubbleSort;muitas_duplicatas;10;2.9800000447721686e-05;0.109375;O(n²);True
+SelectionSort;muitas_duplicatas;10;3.0299999707494862e-05;0.109375;O(n²);True
+InsertionSort;muitas_duplicatas;10;6.999999641266186e-06;0.078125;O(n²);True
+TimSort;muitas_duplicatas;10;4.19999923906289e-06;0.1484375;O(n log n);True
+HeapSort;ordenada;50;7.480000022042077e-05;0.2734375;O(n log n);True
+QuickSort;ordenada;50;0.00021039999955974054;1.484375;O(n log n) médio, O(n²) pior;True
+MergeSort;ordenada;50;0.00017500000012660166;1.0390625;O(n log n);True
+BubbleSort;ordenada;50;0.00017389999993611127;0.109375;O(n²);True
+SelectionSort;ordenada;50;0.0002432000001135748;0.109375;O(n²);True
+InsertionSort;ordenada;50;1.4799999917158857e-05;0.078125;O(n²);True
+TimSort;ordenada;50;5.599999894911889e-06;0.4609375;O(n log n);True
+HeapSort;reversa;50;5.830000009154901e-05;0.2734375;O(n log n);True
+QuickSort;reversa;50;0.00028759999986505136;1.5078125;O(n log n) médio, O(n²) pior;True
+MergeSort;reversa;50;0.00024849999954312807;1.0390625;O(n log n);True
+BubbleSort;reversa;50;0.0001581999995323713;0.109375;O(n²);True
+SelectionSort;reversa;50;0.00015000000075815478;0.109375;O(n²);True
+InsertionSort;reversa;50;0.00015499999972234946;0.078125;O(n²);True
+TimSort;reversa;50;5.4000001910026185e-06;0.4609375;O(n log n);True
+HeapSort;aleatoria;50;0.00011250000079598976;0.2734375;O(n log n);True
+QuickSort;aleatoria;50;0.00022010000066075008;2.7421875;O(n log n) médio, O(n²) pior;True
+MergeSort;aleatoria;50;0.0002069000001938548;0.953125;O(n log n);True
+BubbleSort;aleatoria;50;0.00015280000025086338;0.109375;O(n²);True
+SelectionSort;aleatoria;50;0.00014240000018617138;0.109375;O(n²);True
+InsertionSort;aleatoria;50;8.329999945999589e-05;0.078125;O(n²);True
+TimSort;aleatoria;50;9.999999747378752e-06;0.4609375;O(n log n);True
+HeapSort;parcialmente_ordenada;50;0.00011300000005576294;0.2734375;O(n log n);True
+QuickSort;parcialmente_ordenada;50;0.00023289999990083743;1.484375;O(n log n) médio, O(n²) pior;True
+MergeSort;parcialmente_ordenada;50;0.0002473999993526377;1.0390625;O(n log n);True
+BubbleSort;parcialmente_ordenada;50;0.00015559999974357197;0.109375;O(n²);True
+SelectionSort;parcialmente_ordenada;50;0.00014279999959398992;0.109375;O(n²);True
+InsertionSort;parcialmente_ordenada;50;1.8400000044493936e-05;0.078125;O(n²);True
+TimSort;parcialmente_ordenada;50;9.299999874201603e-06;0.4609375;O(n log n);True
+HeapSort;muitas_duplicatas;50;8.739999975659885e-05;0.2734375;O(n log n);True
+QuickSort;muitas_duplicatas;50;5.8399999943503644e-05;1.3359375;O(n log n) médio, O(n²) pior;True
+MergeSort;muitas_duplicatas;50;0.00017979999938688707;0.96875;O(n log n);True
+BubbleSort;muitas_duplicatas;50;0.0001712000002953573;0.109375;O(n²);True
+SelectionSort;muitas_duplicatas;50;0.00013269999999465654;0.109375;O(n²);True
+InsertionSort;muitas_duplicatas;50;5.199999941396527e-05;0.078125;O(n²);True
+TimSort;muitas_duplicatas;50;9.100000170292333e-06;0.4609375;O(n log n);True
+HeapSort;ordenada;100;0.00022429999989981297;0.2734375;O(n log n);True
+QuickSort;ordenada;100;0.00037539999993896345;2.65625;O(n log n) médio, O(n²) pior;True
+MergeSort;ordenada;100;0.00031880000005912734;1.984375;O(n log n);True
+BubbleSort;ordenada;100;0.0004596999997374951;0.109375;O(n²);True
+SelectionSort;ordenada;100;0.0003424000005907146;0.109375;O(n²);True
+InsertionSort;ordenada;100;1.4100000043981709e-05;0.078125;O(n²);True
+TimSort;ordenada;100;8.400000297115184e-06;0.8515625;O(n log n);True
+HeapSort;reversa;100;0.0001654999996389961;0.2734375;O(n log n);True
+QuickSort;reversa;100;0.0003569999998944695;2.7421875;O(n log n) médio, O(n²) pior;True
+MergeSort;reversa;100;0.0003772999998545856;1.984375;O(n log n);True
+BubbleSort;reversa;100;0.0006600000006073969;0.109375;O(n²);True
+SelectionSort;reversa;100;0.00028449999990698416;0.109375;O(n²);True
+InsertionSort;reversa;100;0.0005602000001090346;0.078125;O(n²);True
+TimSort;reversa;100;6.70000008540228e-06;0.8515625;O(n log n);True
+HeapSort;aleatoria;100;0.00015799999982846202;0.2734375;O(n log n);True
+QuickSort;aleatoria;100;0.00046039999961067224;3.6328125;O(n log n) médio, O(n²) pior;True
+MergeSort;aleatoria;100;0.00043790000017907005;1.7890625;O(n log n);True
+BubbleSort;aleatoria;100;0.00045110000064596534;0.109375;O(n²);True
+SelectionSort;aleatoria;100;0.00027860000045620836;0.109375;O(n²);True
+InsertionSort;aleatoria;100;0.00024329999996552942;0.078125;O(n²);True
+TimSort;aleatoria;100;1.1699999959091656e-05;0.8515625;O(n log n);True
+HeapSort;parcialmente_ordenada;100;0.0001557000005050213;0.2734375;O(n log n);True
+QuickSort;parcialmente_ordenada;100;0.0003808999999819207;3.046875;O(n log n) médio, O(n²) pior;True
+MergeSort;parcialmente_ordenada;100;0.00037199999951553764;1.8046875;O(n log n);True
+BubbleSort;parcialmente_ordenada;100;0.000557200000002922;0.109375;O(n²);True
+SelectionSort;parcialmente_ordenada;100;0.00045899999986431794;0.109375;O(n²);True
+InsertionSort;parcialmente_ordenada;100;7.119999918359099e-05;0.078125;O(n²);True
+TimSort;parcialmente_ordenada;100;1.3099999705445953e-05;0.8515625;O(n log n);True
+HeapSort;muitas_duplicatas;100;0.0001446999995096121;0.2734375;O(n log n);True
+QuickSort;muitas_duplicatas;100;0.00010699999984353781;2.6015625;O(n log n) médio, O(n²) pior;True
+MergeSort;muitas_duplicatas;100;0.0003584000005503185;1.796875;O(n log n);True
+BubbleSort;muitas_duplicatas;100;0.0004669999998441199;0.109375;O(n²);True
+SelectionSort;muitas_duplicatas;100;0.00030810000043857144;0.109375;O(n²);True
+InsertionSort;muitas_duplicatas;100;0.00021830000059708254;0.078125;O(n²);True
+TimSort;muitas_duplicatas;100;1.5500000699830707e-05;0.8515625;O(n log n);True
+HeapSort;ordenada;500;0.004000300000370771;0.44140625;O(n log n);True
+QuickSort;ordenada;500;0.0015413000000989996;12.34375;O(n log n) médio, O(n²) pior;True
+MergeSort;ordenada;500;0.001688800000010815;9.796875;O(n log n);True
+BubbleSort;ordenada;500;0.04694569999992382;0.23046875;O(n²);True
+SelectionSort;ordenada;500;0.04881810000006226;0.23046875;O(n²);True
+InsertionSort;ordenada;500;0.000403099999857659;0.13671875;O(n²);True
+TimSort;ordenada;500;9.800000043469481e-06;3.9765625;O(n log n);True
+HeapSort;reversa;500;0.0019215000002077431;0.44140625;O(n log n);True
+QuickSort;reversa;500;0.0015358000000560423;12.3671875;O(n log n) médio, O(n²) pior;True
+MergeSort;reversa;500;0.0016923000002861954;9.796875;O(n log n);True
+BubbleSort;reversa;500;0.08432689999972354;0.23046875;O(n²);True
+SelectionSort;reversa;500;0.04758320000019012;0.23046875;O(n²);True
+InsertionSort;reversa;500;0.04797429999962333;0.13671875;O(n²);True
+TimSort;reversa;500;1.1399999493733048e-05;3.9765625;O(n log n);True
+HeapSort;aleatoria;500;0.002413700000033714;0.44140625;O(n log n);True
+QuickSort;aleatoria;500;0.0022451000004366506;20.1015625;O(n log n) médio, O(n²) pior;True
+MergeSort;aleatoria;500;0.0019447000004220172;8.2578125;O(n log n);True
+BubbleSort;aleatoria;500;0.08680829999957496;0.23046875;O(n²);True
+SelectionSort;aleatoria;500;0.044229299999642535;0.23046875;O(n²);True
+InsertionSort;aleatoria;500;0.035038899999563;0.13671875;O(n²);True
+TimSort;aleatoria;500;4.9500000386615284e-05;3.9765625;O(n log n);True
+HeapSort;parcialmente_ordenada;500;0.003358999999363732;0.44140625;O(n log n);True
+QuickSort;parcialmente_ordenada;500;0.0018382999996902072;13.453125;O(n log n) médio, O(n²) pior;True
+MergeSort;parcialmente_ordenada;500;0.0019748999993680627;8.3359375;O(n log n);True
+BubbleSort;parcialmente_ordenada;500;0.04253510000035021;0.23046875;O(n²);True
+SelectionSort;parcialmente_ordenada;500;0.05131639999945037;0.23046875;O(n²);True
+InsertionSort;parcialmente_ordenada;500;0.009345600000415288;0.13671875;O(n²);True
+TimSort;parcialmente_ordenada;500;3.1099999432626646e-05;3.9765625;O(n log n);True
+HeapSort;muitas_duplicatas;500;0.0024909000003390247;0.44140625;O(n log n);True
+QuickSort;muitas_duplicatas;500;0.0006673999996564817;16.265625;O(n log n) médio, O(n²) pior;True
+MergeSort;muitas_duplicatas;500;0.001791100000446022;8.2890625;O(n log n);True
+BubbleSort;muitas_duplicatas;500;0.07687729999997828;0.23046875;O(n²);True
+SelectionSort;muitas_duplicatas;500;0.0482904000000417;0.23046875;O(n²);True
+InsertionSort;muitas_duplicatas;500;0.03499590000046737;0.13671875;O(n²);True
+TimSort;muitas_duplicatas;500;4.689999968832126e-05;3.9765625;O(n log n);True
+HeapSort;ordenada;1000;0.011292799999864656;0.50390625;O(n log n);True
+QuickSort;ordenada;1000;0.0035823999996864586;24.40625;O(n log n) médio, O(n²) pior;True
+MergeSort;ordenada;1000;0.004194699999970908;19.59375;O(n log n);True
+BubbleSort;ordenada;1000;0.2777526999998372;0.26171875;O(n²);True
+SelectionSort;ordenada;1000;0.24157090000062453;0.26171875;O(n²);True
+InsertionSort;ordenada;1000;0.0012273000002096524;0.13671875;O(n²);True
+TimSort;ordenada;1000;1.2900000001536682e-05;7.8828125;O(n log n);True
+HeapSort;reversa;1000;0.006197300000167161;0.50390625;O(n log n);True
+QuickSort;reversa;1000;0.0032608000001346227;24.4296875;O(n log n) médio, O(n²) pior;True
+MergeSort;reversa;1000;0.00520079999932932;19.59375;O(n log n);True
+BubbleSort;reversa;1000;0.6094493999999031;0.26171875;O(n²);True
+SelectionSort;reversa;1000;0.2206229000003077;0.26171875;O(n²);True
+InsertionSort;reversa;1000;0.3283817999999883;0.13671875;O(n²);True
+TimSort;reversa;1000;1.52000002344721e-05;7.8828125;O(n log n);True
+HeapSort;aleatoria;1000;0.007389999999759311;0.50390625;O(n log n);True
+QuickSort;aleatoria;1000;0.004606299999977637;47.203125;O(n log n) médio, O(n²) pior;True
+MergeSort;aleatoria;1000;0.005386300000282063;16.84375;O(n log n);True
+BubbleSort;aleatoria;1000;0.5129346999992777;0.26171875;O(n²);True
+SelectionSort;aleatoria;1000;0.22151120000035007;0.26171875;O(n²);True
+InsertionSort;aleatoria;1000;0.2256020000004355;0.13671875;O(n²);True
+TimSort;aleatoria;1000;9.929999941959977e-05;11.7578125;O(n log n);True
+HeapSort;parcialmente_ordenada;1000;0.008561099999496946;0.50390625;O(n log n);True
+QuickSort;parcialmente_ordenada;1000;0.004007400000773487;24.59375;O(n log n) médio, O(n²) pior;True
+MergeSort;parcialmente_ordenada;1000;0.00809209999988525;16.9609375;O(n log n);True
+BubbleSort;parcialmente_ordenada;1000;0.3382120999995095;0.26171875;O(n²);True
+SelectionSort;parcialmente_ordenada;1000;0.2231736000003366;0.26171875;O(n²);True
+InsertionSort;parcialmente_ordenada;1000;0.0656938000001901;0.13671875;O(n²);True
+TimSort;parcialmente_ordenada;1000;8.04999999672873e-05;11.671875;O(n log n);True
+HeapSort;muitas_duplicatas;1000;0.009077100000467908;0.50390625;O(n log n);True
+QuickSort;muitas_duplicatas;1000;0.004339899999649788;30.8125;O(n log n) médio, O(n²) pior;True
+MergeSort;muitas_duplicatas;1000;0.00561440000001312;16.859375;O(n log n);True
+BubbleSort;muitas_duplicatas;1000;0.5293375000001106;0.26171875;O(n²);True
+SelectionSort;muitas_duplicatas;1000;0.22763639999993757;0.26171875;O(n²);True
+InsertionSort;muitas_duplicatas;1000;0.22028150000005553;0.13671875;O(n²);True
+TimSort;muitas_duplicatas;1000;9.039999986271141e-05;11.7109375;O(n log n);True
+HeapSort;ordenada;5000;0.08080909999989672;0.69140625;O(n log n);True
+QuickSort;ordenada;5000;0.022828000000117754;122.828125;O(n log n) médio, O(n²) pior;True
+MergeSort;ordenada;5000;0.04753990000062913;97.71875;O(n log n);True
+TimSort;ordenada;5000;3.3399999665562063e-05;39.1328125;O(n log n);True
+HeapSort;reversa;5000;0.0587666999999783;0.69140625;O(n log n);True
+QuickSort;reversa;5000;0.018995100000211096;122.9375;O(n log n) médio, O(n²) pior;True
+MergeSort;reversa;5000;0.043576000000030035;97.71875;O(n log n);True
+TimSort;reversa;5000;3.5600000046542846e-05;39.1328125;O(n log n);True
+HeapSort;aleatoria;5000;0.07067449999976816;0.69140625;O(n log n);True
+QuickSort;aleatoria;5000;0.031827400000111084;150.8671875;O(n log n) médio, O(n²) pior;True
+MergeSort;aleatoria;5000;0.05920069999956468;81.921875;O(n log n);True
+TimSort;aleatoria;5000;0.0005278999997244682;58.5;O(n log n);True
+HeapSort;parcialmente_ordenada;5000;0.08003569999982574;0.69140625;O(n log n);True
+QuickSort;parcialmente_ordenada;5000;0.02508919999945647;155.0703125;O(n log n) médio, O(n²) pior;True
+MergeSort;parcialmente_ordenada;5000;0.06445139999959792;82.0078125;O(n log n);True
+TimSort;parcialmente_ordenada;5000;0.00028619999920920236;58.4921875;O(n log n);True
+HeapSort;muitas_duplicatas;5000;0.06567319999976462;0.69140625;O(n log n);True
+QuickSort;muitas_duplicatas;5000;0.008630999999695632;174.9765625;O(n log n) médio, O(n²) pior;True
+MergeSort;muitas_duplicatas;5000;0.05739979999998468;81.921875;O(n log n);True
+TimSort;muitas_duplicatas;5000;0.0005156999995961087;58.4765625;O(n log n);True
+HeapSort;ordenada;10000;0.16984620000039286;0.75390625;O(n log n);True
+QuickSort;ordenada;10000;0.03881759999967471;243.609375;O(n log n) médio, O(n²) pior;True
+MergeSort;ordenada;10000;0.07991409999976895;195.375;O(n log n);True
+TimSort;ordenada;10000;5.6799999583745375e-05;78.1953125;O(n log n);True
+HeapSort;reversa;10000;0.17059519999929762;0.75390625;O(n log n);True
+QuickSort;reversa;10000;0.047203000000081374;243.71875;O(n log n) médio, O(n²) pior;True
+MergeSort;reversa;10000;0.08576319999974658;195.375;O(n log n);True
+TimSort;reversa;10000;9.229999977833359e-05;78.1953125;O(n log n);True
+HeapSort;aleatoria;10000;0.15839729999970587;0.75390625;O(n log n);True
+QuickSort;aleatoria;10000;0.052733700000317185;311.3203125;O(n log n) médio, O(n²) pior;True
+MergeSort;aleatoria;10000;0.14380220000020927;164.9375;O(n log n);True
+TimSort;aleatoria;10000;0.001147099999798229;117.2578125;O(n log n);True
+HeapSort;parcialmente_ordenada;10000;0.17360809999991034;0.75390625;O(n log n);True
+QuickSort;parcialmente_ordenada;10000;0.043208099999901606;277.2265625;O(n log n) médio, O(n²) pior;True
+MergeSort;parcialmente_ordenada;10000;0.13064250000024913;165.0703125;O(n log n);True
+TimSort;parcialmente_ordenada;10000;0.0006251000004340312;117.09375;O(n log n);True
+HeapSort;muitas_duplicatas;10000;0.15948440000011033;0.75390625;O(n log n);True
+QuickSort;muitas_duplicatas;10000;0.020867700000053446;390.4609375;O(n log n) médio, O(n²) pior;True
+MergeSort;muitas_duplicatas;10000;0.13636550000046554;164.9375;O(n log n);True
+TimSort;muitas_duplicatas;10000;0.0010618000005706563;117.2265625;O(n log n);True

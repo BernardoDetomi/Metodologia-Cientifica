@@ -1,0 +1,31 @@
+RELATÓRIO DE BENCHMARK - ALGORITMOS DE ORDENAÇÃO
+============================================================
+
+RESUMO EXECUTIVO:
+• Total de testes realizados: 162
+• Algoritmos comparados: HeapSort, QuickSort, MergeSort, TimSort
+• Casos de teste: 7
+• Tamanhos testados: [np.int64(100), np.int64(500), np.int64(1000), np.int64(2500), np.int64(5000), np.int64(10000)]
+
+ANÁLISE DETALHADA POR ALGORITMO:
+----------------------------------------
+
+HeapSort:
+  • Tempo médio geral: 0.008471s (±0.010191)
+  • Melhor caso: few_unique (0.000114s)
+  • Pior caso: nearly_sorted (0.030732s)
+
+QuickSort:
+  • Tempo médio geral: 0.011225s (±0.021227)
+  • Melhor caso: alternating (0.000076s)
+  • Pior caso: alternating (0.112687s)
+
+MergeSort:
+  • Tempo médio geral: 0.005455s (±0.006496)
+  • Melhor caso: best_case_heap (0.000092s)
+  • Pior caso: average_case (0.021199s)
+
+TimSort:
+  • Tempo médio geral: 0.000141s (±0.000247)
+  • Melhor caso: best_case_heap (0.000001s)
+  • Pior caso: average_case (0.001067s)

@@ -1,0 +1,45 @@
+================================================================================
+RELATÓRIO ESTATÍSTICO - ANÁLISE DE ALGORITMOS DE ORDENAÇÃO
+================================================================================
+
+📊 ESTATÍSTICAS GERAIS:
+   • Total de execuções: 215
+   • Algoritmos analisados: 7
+   • Tipos de entrada: 5
+   • Tamanhos testados: [np.int64(10), np.int64(50), np.int64(100), np.int64(500), np.int64(1000), np.int64(5000), np.int64(10000)]
+
+🔍 ANÁLISE POR ALGORITMO:
+   • HeapSort:
+     - Tempo médio: 0.035611s
+     - Memória média: 0.46KB
+     - Complexidade: O(n log n)
+
+   • QuickSort:
+     - Tempo médio: 0.009735s
+     - Memória média: 69.85KB
+     - Complexidade: O(n log n) médio, O(n²) pior
+
+   • MergeSort:
+     - Tempo médio: 0.025412s
+     - Memória média: 42.20KB
+     - Complexidade: O(n log n)
+
+   • BubbleSort:
+     - Tempo médio: 0.104348s
+     - Memória média: 0.16KB
+     - Complexidade: O(n²)
+
+   • SelectionSort:
+     - Tempo médio: 0.055094s
+     - Memória média: 0.16KB
+     - Complexidade: O(n²)
+
+   • InsertionSort:
+     - Tempo médio: 0.038817s
+     - Memória média: 0.10KB
+     - Complexidade: O(n²)
+
+   • TimSort:
+     - Tempo médio: 0.000141s
+     - Memória média: 23.99KB
+     - Complexidade: O(n log n)
