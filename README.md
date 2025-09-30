@@ -7,28 +7,27 @@ Este repositório contém a implementação e análise experimental de algoritmo
 ## 🎯 Objetivos
 
 - **Análise do consumo de memória e tempo de execução** do HeapSort
-- **Análise de diferentes tipos de entrada**: ordenadas, reversamente ordenadas, desordenadas, parcialmente ordenadas, e com duplicatas
-- **Análise de diferentes tamanhos**: dezenas, milhares e milhões de elementos
-- **Comparação com algoritmos existentes** na literatura (QuickSort, MergeSort, BubbleSort, etc.)
-- **Análise detalhada dos resultados** com visualizações e relatórios estatísticos
+- **Análise de diferentes tipos de entrada**: ordenadas, reversamente ordenadas e aleatórias
+- **Análise de diferentes tamanhos**: dezenas, centenas, milhares e dezenas de milhares de elementos
+- **Comparação com algoritmos clássicos** (BubbleSort, SelectionSort, InsertionSort)
+- **Análise detalhada dos resultados** com visualizações gráficas
 
 ## 📁 Estrutura do Repositório
 
 ```
-metodologia/
-├── codigo/                          # 💻 Códigos fonte
-│   ├── heapsort_analysis.py        # Análise experimental completa
-│   ├── benchmark_comparison.py     # Comparação detalhada entre algoritmos
-│   ├── run_analysis.py            # Script principal de execução
-│   └── heapsort_original.py       # Implementação original do HeapSort
-├── dados/                          # 📊 Dados e resultados
-│   ├── resultados_completos.csv   # Dados experimentais principais
-│   ├── benchmark_results.csv      # Resultados do benchmark
-│   ├── relatorio_estatistico.txt  # Análise estatística
-│   ├── benchmark_report.txt       # Relatório do benchmark
-│   ├── graficos/                  # 📈 Visualizações principais
-│   └── benchmark/                 # 🏆 Gráficos de comparação
-└── README.md                      # 📖 Documentação
+Metodologia-Cientifica/
+├── Codigo/                         # 💻 Códigos fonte
+│   └── heapsort.py                # Implementação completa com análise experimental
+├── Dados/                         # 📊 Dados e resultados
+│   ├── resultados_heapsort.csv   # Dados experimentais
+│   └── gráficos/                 # 📈 Visualizações (6 gráficos)
+│       ├── Figure_1.png          # Comparação tempo - entrada ordenada
+│       ├── Figure_2.png          # Comparação tempo - entrada reversa  
+│       ├── Figure_3.png          # Comparação tempo - entrada aleatória
+│       ├── Figure_4.png          # Comparação memória - entrada ordenada
+│       ├── Figure_5.png          # Comparação memória - entrada reversa
+│       └── Figure_6.png          # Comparação memória - entrada aleatória
+└── README.md                     # 📖 Documentação
 ```
 
 ## 🚀 Como Executar
@@ -36,90 +35,76 @@ metodologia/
 ### Pré-requisitos
 
 - Python 3.7 ou superior
-- Bibliotecas necessárias (instaladas automaticamente):
+- Bibliotecas necessárias:
   - `matplotlib`
-  - `pandas`
-  - `numpy`
-  - `seaborn`
+  - `random`
+  - `time`
+  - `tracemalloc`
+  - `csv`
 
-### Execução Completa
+### Execução
 
 1. **Clone ou baixe o repositório**
-2. **Navegue até a pasta `codigo`**:
+2. **Navegue até a pasta `Codigo`**:
    ```bash
-   cd codigo
+   cd Codigo
    ```
-3. **Execute a análise completa**:
+3. **Execute a análise**:
    ```bash
-   python run_analysis.py
+   python heapsort.py
    ```
 
-### Execuções Específicas
-
-Para executar apenas análises específicas:
-
-```bash
-# Análise experimental principal
-python heapsort_analysis.py
-
-# Benchmark comparativo detalhado
-python benchmark_comparison.py
-```
+O script irá:
+- Executar todos os algoritmos com diferentes tipos e tamanhos de entrada
+- Gerar o arquivo `resultados_heapsort.csv` com os dados experimentais
+- Exibir 6 gráficos comparativos de tempo e memória
+- Salvar os gráficos automaticamente na pasta `Dados/gráficos/`
 
 ## 📊 Análises Realizadas
 
 ### 1. **Análise de Performance**
-- Medição de tempo de execução com `time.perf_counter()`
+- Medição de tempo de execução com `time.time()`
 - Monitoramento de memória com `tracemalloc`
-- Múltiplas execuções para cálculo de estatísticas
+- Análise de pico de consumo de memória
 
 ### 2. **Tipos de Entrada Testados**
-- **Ordenada**: `[1, 2, 3, ..., n]`
-- **Reversa**: `[n, n-1, ..., 2, 1]`
-- **Aleatória**: Permutação aleatória
-- **Parcialmente Ordenada**: 90% ordenada com 10% de elementos fora de lugar
-- **Muitas Duplicatas**: Apenas 10% de valores únicos
-- **Poucos Valores Únicos**: Máximo de 5 valores diferentes
-- **Alternada**: Padrão alternado de valores
+- **Ordenada**: `[0, 1, 2, ..., n-1]`
+- **Reversa**: `[n-1, n-2, ..., 1, 0]`
+- **Aleatória**: Amostra aleatória de números únicos
 
 ### 3. **Tamanhos de Entrada**
-- **Pequenos**: 10, 50, 100 elementos
-- **Médios**: 500, 1.000, 5.000 elementos  
-- **Grandes**: 10.000+ elementos (conforme capacidade)
+- **10 elementos**: Teste básico
+- **100 elementos**: Entrada pequena
+- **1.000 elementos**: Entrada média
+- **10.000 elementos**: Entrada grande
 
 ### 4. **Algoritmos Comparados**
-- **HeapSort** (foco principal)
-- **QuickSort** (otimizado com mediana de três)
-- **MergeSort**
-- **TimSort** (algoritmo nativo do Python)
-- **BubbleSort** (referência O(n²))
-- **SelectionSort** (referência O(n²))
-- **InsertionSort** (referência O(n²))
+- **HeapSort** (foco principal) - O(n log n)
+- **BubbleSort** - O(n²)
+- **SelectionSort** - O(n²)
+- **InsertionSort** - O(n²)
 
 ## 📈 Resultados e Visualizações
 
 ### Arquivos Gerados
 
-1. **`dados/resultados_completos.csv`**: Dados experimentais completos
-2. **`dados/benchmark_results.csv`**: Resultados do benchmark comparativo
-3. **`dados/relatorio_estatistico.txt`**: Análise estatística detalhada
-4. **`dados/benchmark_report.txt`**: Relatório de performance
+1. **`Dados/resultados_heapsort.csv`**: Dados experimentais completos com tempo e memória
 
 ### Gráficos Gerados
 
-1. **Comparação de Tempo por Tipo de Entrada**
-2. **Análise de Consumo de Memória**
-3. **Análise de Escalabilidade**
-4. **Heatmap de Performance**
-5. **Análise Específica do HeapSort**
-6. **Gráficos de Benchmark Comparativo**
+1. **Comparação de Tempo - Entrada Ordenada** (`Figure_1.png`)
+2. **Comparação de Tempo - Entrada Reversa** (`Figure_2.png`)
+3. **Comparação de Tempo - Entrada Aleatória** (`Figure_3.png`)
+4. **Comparação de Memória - Entrada Ordenada** (`Figure_4.png`)
+5. **Comparação de Memória - Entrada Reversa** (`Figure_5.png`)
+6. **Comparação de Memória - Entrada Aleatória** (`Figure_6.png`)
 
 ## 🔬 Metodologia Experimental
 
 ### Medição de Tempo
-- Uso do `time.perf_counter()` para alta precisão
-- Múltiplas execuções (3-5 repetições) para cálculo de estatísticas
-- Cálculo de média, mediana, desvio padrão, mínimo e máximo
+- Uso do `time.time()` para medição de tempo de execução
+- Medição do tempo total de cada algoritmo
+- Comparação entre diferentes algoritmos e tipos de entrada
 
 ### Medição de Memória
 - Monitoramento com `tracemalloc`
@@ -127,43 +112,43 @@ python benchmark_comparison.py
 - Conversão para KB para melhor legibilidade
 
 ### Controle de Qualidade
-- Verificação automática de corretude (array ordenado)
-- Tratamento de exceções e timeouts
-- Validação de entrada e saída
+- Cópia dos arrays antes da ordenação para preservar dados originais
+- Implementação recursiva do HeapSort com limite de recursão aumentado
+- Teste com diferentes tipos e tamanhos de entrada
 
 ## 📊 Principais Descobertas
 
 ### Performance do HeapSort
 - **Complexidade**: O(n log n) garantida em todos os casos
 - **Estabilidade**: Performance consistente independente do tipo de entrada
-- **Memória**: Ordenação in-place com baixo overhead de memória
+- **Memória**: Consumo médio de ~0.27 KB, superior aos algoritmos O(n²)
 
-### Comparação com Outros Algoritmos
-- **vs QuickSort**: Mais estável, mas ligeiramente mais lento no caso médio
-- **vs MergeSort**: Menor uso de memória, performance similar
-- **vs Algoritmos O(n²)**: Significativamente superior para entradas grandes
+### Comparação com Algoritmos O(n²)
+- **vs BubbleSort**: HeapSort significativamente mais eficiente para entradas grandes
+- **vs SelectionSort**: HeapSort mantém melhor performance com o crescimento da entrada
+- **vs InsertionSort**: HeapSort com maior uso de memória mas melhor escalabilidade
 
 ## 🛠️ Detalhes Técnicos
 
 ### Configurações do Sistema
 - Limite de recursão aumentado: `sys.setrecursionlimit(10**7)`
-- Estilo de gráficos: `seaborn-v0_8`
-- Encoding: UTF-8 para compatibilidade
+- Biblioteca matplotlib para visualizações
+- Encoding UTF-8 para compatibilidade
 
 ### Tratamento de Dados
 - Dados salvos em CSV com separador `;`
-- Gráficos salvos em PNG com alta resolução (300 DPI)
-- Relatórios em texto plano UTF-8
+- Gráficos exibidos interativamente com matplotlib
+- Resultados exportados para análise posterior
 
 ## 📝 Requisitos Atendidos
 
 ✅ **Análise do consumo de memória e tempo de execução**  
-✅ **Análise de diferentes tipos de entrada**  
-✅ **Análise de diferentes tamanhos para a entrada**  
-✅ **Comparação com algoritmos existentes na literatura**  
-✅ **Análise detalhada de cada resultado apresentado**  
-✅ **Execução real de código para medições**  
-✅ **Repositório organizado com pastas `codigo` e `dados`**  
+✅ **Análise de diferentes tipos de entrada** (ordenada, reversa, aleatória)  
+✅ **Análise de diferentes tamanhos para a entrada** (10, 100, 1K, 10K elementos)  
+✅ **Comparação com algoritmos existentes na literatura** (BubbleSort, SelectionSort, InsertionSort)  
+✅ **Análise detalhada de cada resultado apresentado** (6 gráficos comparativos)  
+✅ **Execução real de código para medições** (48 experimentos realizados)  
+✅ **Repositório organizado com pastas `Codigo` e `Dados`**  
 ✅ **Documentação completa de como executar**  
 
 ## 👥 Contribuições
@@ -176,10 +161,12 @@ Este projeto é disponibilizado para fins educacionais e de pesquisa.
 
 ---
 
-**Link do Repositório**: [https://github.com/usuario/metodologia-algoritmos](https://github.com/usuario/metodologia-algoritmos)
+**Link do Repositório**: [https://github.com/usuario/Metodologia-Cientifica](https://github.com/usuario/Metodologia-Cientifica)
 
 **Autor**: Projeto de Metodologia Científica  
 **Data**: 2025  
 **Instituição**: [Universidade Federal de São João del-Rei]
 
-README.md --- Gerado por IA  
+---
+
+*README.md gerado por IA*  
