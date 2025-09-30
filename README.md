@@ -161,7 +161,7 @@ Este projeto é disponibilizado para fins educacionais e de pesquisa.
 
 ---
 
-**Link do Repositório**: [https://github.com/usuario/Metodologia-Cientifica](https://github.com/usuario/Metodologia-Cientifica)
+**Link do Repositório**: [https://github.com/BernardoDetomi/Metodologia-Cientifica.git](https://github.com/BernardoDetomi/Metodologia-Cientifica.git)
 
 **Autor**: Projeto de Metodologia Científica  
 **Data**: 2025  
