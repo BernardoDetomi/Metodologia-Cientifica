@@ -179,5 +179,7 @@ Este projeto é disponibilizado para fins educacionais e de pesquisa.
 **Link do Repositório**: [https://github.com/usuario/metodologia-algoritmos](https://github.com/usuario/metodologia-algoritmos)
 
 **Autor**: Projeto de Metodologia Científica  
-**Data**: 2024  
-**Instituição**: [Nome da Instituição]
+**Data**: 2025  
+**Instituição**: [Universidade Federal de São João del-Rei]
+
+README.md --- Gerado por IA  
